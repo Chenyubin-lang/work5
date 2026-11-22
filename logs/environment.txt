@@ -1,0 +1,11 @@
+node --version
+v24.14.0
+npm --version
+11.9.0
+git --version
+git version 2.54.0.windows.1
+source: D:\pi-work\pi-hunnu-2026
+origin	https://github.com/aaa-course-project/pi-hunnu-2026.git (fetch)
+origin	https://github.com/aaa-course-project/pi-hunnu-2026.git (push)
+main
+c3cc91632d0a1950fb122605b190233f2aa0006e

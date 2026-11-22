@@ -1,0 +1,102 @@
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> pi-monorepo@0.0.3 build
+> cd packages/telemetry && npm run build && cd ../schema && npm run build && cd ../chord && npm run build && cd ../tui && npm run build && cd ../codemode && npm run build && cd ../mcp && npm run build && cd ../ai && npm run build && cd ../durable && npm run build && cd ../env && npm run build && cd ../agent && npm run build && cd ../coding-agent && npm run build
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-telemetry@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-schema@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/chord@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-tui@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-codemode@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-mcp@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-ai@1.5.2 build
+> npm run generate-models && npm run build:offline
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-ai@1.5.2 generate-models
+> node catalog/generate.ts --strict
+
+Fetching models.dev catalog...
+Failed to fetch models.dev catalog: [TypeError: fetch failed] {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 104.21.51.36:443, 172.67.220.122:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:1936:23)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:1902:35)
+      at process.processImmediate (node:internal/timers:504:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[TypeError: fetch failed] {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 104.21.51.36:443, 172.67.220.122:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:1936:23)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:1902:35)
+      at process.processImmediate (node:internal/timers:504:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+npm error Lifecycle script `generate-models` failed with error:
+npm error code 1
+npm error path D:\pi-work\pi-hunnu-2026\packages\ai
+npm error workspace @earendil-works/pi-ai@1.5.2
+npm error location D:\pi-work\pi-hunnu-2026\packages\ai
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node catalog/generate.ts --strict
+npm error Lifecycle script `build` failed with error:
+npm error code 1
+npm error path D:\pi-work\pi-hunnu-2026\packages\ai
+npm error workspace @earendil-works/pi-ai@1.5.2
+npm error location D:\pi-work\pi-hunnu-2026\packages\ai
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c npm run generate-models && npm run build:offline
+Build exit code: 1

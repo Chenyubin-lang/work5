@@ -1,0 +1,192 @@
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> pi-monorepo@0.0.3 build
+> cd packages/telemetry && npm run build && cd ../schema && npm run build && cd ../chord && npm run build && cd ../tui && npm run build && cd ../codemode && npm run build && cd ../mcp && npm run build && cd ../ai && npm run build && cd ../durable && npm run build && cd ../env && npm run build && cd ../agent && npm run build && cd ../coding-agent && npm run build
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-telemetry@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-schema@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/chord@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-tui@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-codemode@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-mcp@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-ai@1.5.2 build
+> npm run generate-models && npm run build:offline
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-ai@1.5.2 generate-models
+> node catalog/generate.ts --strict
+
+Fetching models.dev catalog...
+Fetching models.dev decision models...
+Fetching NVIDIA NIM models...
+Fetching OpenRouter models...
+Fetching Vercel AI Gateway models...
+Fetching Radius models...
+Generated provider catalogs and src/models.generated.ts
+Generated JSON model values under src/providers/data/
+
+Model Statistics:
+  Total tool-capable models: 1694
+  Reasoning-capable models: 1456
+  amazon-bedrock: 208 chat models, 0 image models, 0 classifier models
+  ant-ling: 3 chat models, 0 image models, 0 classifier models
+  anthropic: 18 chat models, 0 image models, 0 classifier models
+  azure: 48 chat models, 0 image models, 0 classifier models
+  baseten: 15 chat models, 0 image models, 0 classifier models
+  cerebras: 2 chat models, 0 image models, 0 classifier models
+  cloudflare-ai-gateway: 63 chat models, 0 image models, 0 classifier models
+  cloudflare-workers-ai: 20 chat models, 0 image models, 5 classifier models
+  deepseek: 2 chat models, 0 image models, 0 classifier models
+  fireworks: 27 chat models, 0 image models, 0 classifier models
+  github-copilot: 35 chat models, 0 image models, 1 classifier models
+  google-vertex: 17 chat models, 0 image models, 0 classifier models
+  google: 26 chat models, 0 image models, 0 classifier models
+  groq: 7 chat models, 0 image models, 0 classifier models
+  huggingface: 88 chat models, 0 image models, 0 classifier models
+  kimi-coding: 6 chat models, 0 image models, 0 classifier models
+  meta: 7 chat models, 0 image models, 0 classifier models
+  minimax-cn: 4 chat models, 0 image models, 0 classifier models
+  minimax: 4 chat models, 0 image models, 0 classifier models
+  mistral: 34 chat models, 0 image models, 0 classifier models
+  moonshotai-cn: 6 chat models, 0 image models, 0 classifier models
+  moonshotai: 6 chat models, 0 image models, 0 classifier models
+  nvidia: 12 chat models, 0 image models, 0 classifier models
+  openai-codex: 8 chat models, 0 image models, 0 classifier models
+  openai: 47 chat models, 0 image models, 1 classifier models
+  opencode-go: 33 chat models, 0 image models, 0 classifier models
+  opencode: 84 chat models, 0 image models, 2 classifier models
+  openrouter: 416 chat models, 74 image models, 45 classifier models
+  qwen-token-plan-cn: 20 chat models, 0 image models, 0 classifier models
+  qwen-token-plan-individual: 12 chat models, 0 image models, 0 classifier models
+  qwen-token-plan-individual-cn: 12 chat models, 0 image models, 0 classifier models
+  qwen-token-plan: 20 chat models, 0 image models, 0 classifier models
+  radius: 39 chat models, 0 image models, 0 classifier models
+  together: 16 chat models, 0 image models, 0 classifier models
+  typesafe: 0 chat models, 0 image models, 1 classifier models
+  vercel-ai-gateway: 305 chat models, 0 image models, 26 classifier models
+  xai: 4 chat models, 0 image models, 0 classifier models
+  xiaomi-token-plan-ams: 2 chat models, 0 image models, 0 classifier models
+  xiaomi-token-plan-cn: 2 chat models, 0 image models, 0 classifier models
+  xiaomi-token-plan-sgp: 2 chat models, 0 image models, 0 classifier models
+  xiaomi: 3 chat models, 0 image models, 0 classifier models
+  zai-coding-cn: 4 chat models, 0 image models, 0 classifier models
+  zai: 7 chat models, 0 image models, 0 classifier models
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-ai@1.5.2 build:offline
+> npm run check:model-data && tsc -p tsconfig.build.json && node ../../scripts/package-files.mjs clean dist/providers/data && node ../../scripts/package-files.mjs copy src/providers/data dist/providers
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-ai@1.5.2 check:model-data
+> node scripts/check-model-data.ts
+
+Generated model data is valid.
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-durable@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-env@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-agent-core@1.5.2 build
+> tsc -p tsconfig.build.json
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-coding-agent@1.5.2 build
+> npm run build:unbundled && node ../../scripts/build-coding-agent-bundle.mjs
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-coding-agent@1.5.2 build:unbundled
+> tsc -p tsconfig.build.json && node ../../scripts/package-files.mjs executable dist/cli.js dist/rpc-entry.js && npm run copy-assets
+
+npm warn Unknown env config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown env config "min-release-age-exclude". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age". This will stop working in the next major version of npm.
+npm warn Unknown project config "min-release-age-exclude". This will stop working in the next major version of npm.
+
+> @earendil-works/pi-coding-agent@1.5.2 copy-assets
+> node ../../scripts/package-files.mjs copy "src/modes/interactive/theme/*.json" dist/modes/interactive/theme && node ../../scripts/package-files.mjs copy "src/modes/interactive/assets/*.png" dist/modes/interactive/assets && node ../../scripts/package-files.mjs copy src/core/export-html/template.html src/core/export-html/template.css src/core/export-html/template.js dist/core/export-html && node ../../scripts/package-files.mjs copy "src/core/export-html/vendor/*.js" dist/core/export-html/vendor
+
+Built packages\coding-agent\dist\bundle (84 files, 9.4 MiB)
+Build exit code: 0

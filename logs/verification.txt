@@ -1,0 +1,9 @@
+Test-Path .\packages\coding-agent\dist\bundle\cli.js
+True
+node .\packages\coding-agent\dist\bundle\cli.js --version
+1.5.2
+Dist exit code: 0
+.\pi-test.bat --version
+1.5.2
+Source exit code: 0
+ M package-lock.json
